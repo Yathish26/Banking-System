@@ -40,7 +40,7 @@ class BankApp:
         password_attempts = 0
         while password_attempts < 3:
             password = input("Enter the Password: ")
-            if password == "Yat@26032000":
+            if password == "Pass@123":
                 while True:
                     print("\n1. Total Bank Net Assets")
                     print("2. List the Account Holders")
